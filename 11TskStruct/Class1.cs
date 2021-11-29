@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace _11TskStruct
 {
+    //Задаем структуру
     public struct Solve
     {
         public double k, b;
+        //Метод Root для решения уравнения
         public void Root()
         {
             if (k > 0 || k < 0)
